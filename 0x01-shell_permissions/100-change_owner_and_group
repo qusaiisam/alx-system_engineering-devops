@@ -1,0 +1,2 @@
+#!/bin/bash
+chonw -hR vincent:staff .
