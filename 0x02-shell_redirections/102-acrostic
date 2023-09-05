@@ -1,0 +1,2 @@
+#!/bin/bas
+cut -c 1 | past -s -d ' 'h
