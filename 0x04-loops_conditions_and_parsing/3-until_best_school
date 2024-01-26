@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-for (( c=1; c<=10; c++ ))
+COUNTER=10
+until [ $COUNTER -lt 1 ]
 do
     echo "Best School"
+    let COUNTER-=1
 done
