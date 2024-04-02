@@ -2,11 +2,11 @@
 # using Puppet to make changes to our configuration file
 
 file { 'etc/ssh/ssh_config':
-	ensure => persent,
+	ensure => present,
 
 content =>"
 
-	#SSH client configeration
+	#SSH client configuration
 	host*
 	Identityfile ~/.ssh/school
 	PasswordAuthentication no
